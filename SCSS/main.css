@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nosotros {
+  max-width: 600px;
+  border: 0.15rem solid black;
+  padding: 0.6rem;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+
+.navbar-brand {
+  background-color: #A9A9C7;
+  border-radius: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar-brand:hover {
+  background-color: #8484ae;
+  border-radius: 1.2rem;
+}
+
+.nav-link:hover {
+  background-color: #A9A9C7;
+  border-radius: 1.2rem;
+}
+
+/* estilo menu navegacion */
+div ul li a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.destacadas {
+  font-size: 10vh;
+}
+
+.dropdown-menu li a {
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+
+.header {
+  width: 100%;
+}
+
+.separador {
+  height: 0.2rem;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+.main {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.container {
+  max-width: 90vh;
+  padding-top: 0.7rem;
+}
+
+/* texto descriptivo  */
+.desc {
+  font-size: 1rem;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* FOOTER */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0.7rem;
+}
+
+/* FORMULARIO DE CONTACTO */
+.formulario {
+  padding: 2.1rem;
+  background-color: lightgray;
+  border-radius: 1rem;
+  margin: auto;
+  max-width: 600px;
+  margin-top: 2rem;
+  margin: auto;
+  height: 70vh;
+  max-height: 450px;
+  opacity: 0.9;
+}
+
+ion-icon {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.pie {
+  font-size: 1rem;
+}
+
+.direcciones {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+/* PRUEBA DE ESTILOS */
+.fondoNosotros {
+  background-image: url("../img-inmobiliaria/felipe-labate-9uICMSlbtCo-unsplash.jpg");
+  background-size: cover;
+  height: 70vh;
+}
+
+.fondoRequisitos {
+  background-image: url("../img-inmobiliaria/calle-de-la-avenida-buenos-aires-119384330.jpeg");
+  background-size: cover;
+  height: 70vh;
+}
+
+.cajaRequisitos {
+  border: 0.15rem solid black;
+  padding: 0.7rem;
+  background-color: #ffffff;
+  opacity: 0.6;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.fondoContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../img-inmobiliaria/Peatonal.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 70vh;
+}
+
+.propi:hover {
+  border: solid 5px black;
+}
+
+.descripcion {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 1;
+  grid-column: 5/6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  ion-icon {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+  }
+  .pie {
+    font-size: 0.6rem;
+  }
+  .desc {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .formulario {
+    max-width: 380px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  ion-icon {
+    font-size: 1.4rem;
+    padding: 0px;
+  }
+  .pie {
+    font-size: 0.5rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

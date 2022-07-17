@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=The+Nautigal:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navbar-brand {
+  font-family: 'The Nautigal', cursive;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #a2d2ff; }
+
+.nosotros {
+  max-width: 600px;
+  padding: 0.6rem;
+  background-color: #ffffff;
+  opacity: 0.8; }
+
+.direccion {
+  font-family: 'Arvo', serif;
+  font-size: 1.2rem;
+  margin-top: 0.5rem; }
+
+.formulario {
+  padding: 2.1rem;
+  background-color: lightgray;
+  border-radius: 1rem;
+  margin: auto;
+  max-width: 600px;
+  margin-top: 2rem;
+  margin: auto;
+  height: 70vh;
+  max-height: 450px;
+  opacity: 0.9; }
+
+.navbar-brand {
+  border-radius: 1.2rem;
+  padding: 0.2rem;
+  padding-right: 0.6rem; }
+  .navbar-brand:hover {
+    background-color: #a2d2ff;
+    border-radius: 1.2rem;
+    border: 2px solid #373AE7; }
+
+.nav-link:hover {
+  background-color: #a2d2ff;
+  border-radius: 1.2rem;
+  border: 1px #373AE7; }
+
+.headerWs :hover {
+  transform: scale(1.3); }
+
+/* estilo menu navegacion */
+div ul li a {
+  font-size: 1.2rem;
+  text-transform: uppercase; }
+
+.destacadas {
+  font-size: 10vh; }
+
+.dropdown-menu li a {
+  font-size: 1rem; }
+
+.separador {
+  height: 0.1rem; }
+
+.main {
+  margin-left: 2%;
+  margin-right: 2%;
+  min-height: 80vh; }
+
+.container {
+  max-width: 90vh;
+  padding-top: 0.7rem; }
+
+/* texto descriptivo  */
+.desc {
+  font-size: 1rem; }
+
+.row {
+  justify-content: center; }
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.7rem; }
+  .footer__pie {
+    font-size: 1rem;
+    margin-left: 20px; }
+  .footer a img {
+    padding-right: 2rem;
+    padding-bottom: 0.5rem; }
+
+/* FORMULARIO DE CONTACTO */
+.formulario {
+  background-color: #999ABD; }
+
+.direcciones {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 500;
+  background-color: #B5B6CF; }
+
+.fondoNosotros {
+  background-image: url("../img-inmobiliaria/felipe-labate-9uICMSlbtCo-unsplash.jpg");
+  background-size: cover;
+  height: 70vh; }
+
+.fondoRequisitos {
+  background-image: url("../img-inmobiliaria/calle-de-la-avenida-buenos-aires-119384330.jpeg");
+  background-size: cover;
+  height: 70vh; }
+
+.cajaRequisitos {
+  border: 0.15rem solid black;
+  padding: 0.7rem;
+  background-color: #ffffff;
+  opacity: 0.6;
+  height: fit-content;
+  max-width: 600px;
+  min-width: 300px; }
+
+.fondoContacto {
+  display: flex;
+  background-image: url("../img-inmobiliaria/Peatonal.jpg");
+  object-fit: cover;
+  height: 70vh; }
+
+.propi:hover {
+  border: solid 3px #373AE7; }
+
+.pie {
+  font-family: 'The Nautigal', cursive;
+  font-size: 1.6rem;
+  margin-left: 20px; }
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .pie {
+    font-size: 1rem; }
+  .desc {
+    margin-top: 1rem;
+    font-size: 0.8rem; }
+  .formulario {
+    max-width: 370px; }
+  .footer a img {
+    padding-right: 0.5rem;
+    padding-bottom: 0.3rem; }
+  .direccion {
+    font-size: 1rem; } }
+
+@media (max-width: 370px) {
+  .pie {
+    font-size: 0.8rem; }
+  .footer a img {
+    padding-right: 0.1rem;
+    padding-bottom: 0.1rem; } }
